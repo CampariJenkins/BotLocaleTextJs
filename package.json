@@ -1,0 +1,39 @@
+{
+  "name": "botlocaletextjs",
+  "version": "1.0.0",
+  "description": "Test for localization for different clients",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "azure-publish": "node publish.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duglah/BotLocaleTextJs.git"
+  },
+  "author": "Philipp Manstein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duglah/BotLocaleTextJs/issues"
+  },
+  "homepage": "https://github.com/duglah/BotLocaleTextJs#readme",
+  "dependencies": {
+    "BotBuilder": "https://github.com/duglah/BotBuilder.git#6cbc041982e73dd7826537cd0f043aeac0ac22fb",
+    "async": "^1.5.2",
+    "base64url": "^1.0.6",
+    "busboy": "^0.2.13",
+    "chrono-node": "^1.2.5",
+    "jsonwebtoken": "^7.1.9",
+    "node-uuid": "^1.4.7",
+    "promise": "^7.1.1",
+    "request": "^2.78.0",
+    "restify": "^4.2.0",
+    "rsa-pem-from-mod-exp": "^0.8.4",
+    "sprintf-js": "^1.0.3",
+    "url-join": "^1.1.0"
+  },
+  "devDependencies": {
+    "zip-folder": "^1.0.0"
+  }
+}
